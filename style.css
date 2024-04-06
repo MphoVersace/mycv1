@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: purple;
+  color: #171a21;
+}
+
+body * {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 160%;
+}
+
+header {
+  text-align: center;
+  color: #d6d1cd;
+  margin-top: 32px;
+}
+
+header h1 {
+  font-style: italic;
+}
+
+header img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 7px solid #d6d1cd;
+  transition: transform 0.5s;
+}
+
+header img:hover {
+  transform: scale(1.5, 1.5);
+}
+
+h2 {
+  color: #d6d1cd;
+  font-weight: 300;
+  font-weight: 500;
+  font-size: 25px;
+  font: bolder;
+  line-height: 50px;
+}
+
+ul li {
+  list-style: circle;
+}
+
+ol {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  text-align: center;
+  gap: 35px;
+  margin: 0 0 0 -35px;
+}
+
+main {
+  max-width: 580px;
+  width: 80%;
+  margin: 30px auto;
+}
+
+section {
+  color: #171a21;
+}
+
+section div {
+  background-color: #d6d1cd4a;
+  padding: 30px;
+  padding-top: 25px;
+  border-radius: 15px;
+}
+
+li:hover {
+  text-decoration: underline #d6d1cd;
+}
+
+a:hover {
+  color: purple;
+}
+
+.class-contact img {
+  width: 30px;
+  height: 30px;
+}
+
+#footer {
+  text-align: center;
+  color: #d6d1cd;
+  font-style: oblique;
+  font-weight: 700;
+  font-size: 12px;
+}
